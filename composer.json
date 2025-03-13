@@ -1,5 +1,5 @@
 {
-    "name": "boundstate/yii2-mailgun",
+    "name": "egorshubin/yii2-mailgun",
     "description": "Mailgun integration for the Yii framework",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "rackspace", "mailgun", "mail", "email", "mailer"],
@@ -15,14 +15,7 @@
         "mailgun/mailgun-php": "^3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8",
-        "kriswallsmith/buzz": "^1.0",
-        "nyholm/psr7": "^1.2",
-        "vlucas/phpdotenv": "^3.6"
-    },
-    "suggest": {
-        "kriswallsmith/buzz": "Mailgun API client requires an HTTP client",
-        "nyholm/psr7": "Mailgun API client requires a PSR-7 implementation"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
